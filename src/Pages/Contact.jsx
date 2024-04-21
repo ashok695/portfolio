@@ -2,11 +2,11 @@ import React from 'react'
 
 const Contact = () => {
   const contactItems = [
-    {
-      social: 'website',
-      link: 'ashok.com',
-      href: '',
-    },
+    // {
+    //   social: 'website',
+    //   link: 'ashok.com',
+    //   href: '',
+    // },
     {
       social: 'email',
       link: 'ashokjoe2001@gmail.com',
