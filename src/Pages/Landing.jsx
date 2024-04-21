@@ -14,7 +14,7 @@ const Landing = () => {
       <img src={bg} className="absolute top-0 left-0 w-[550px] h-[550px] object-cover z-0 opacity-15" alt="Background" />
         <div className='flex justify-evenly pt-10 items-center relative z-10'>
           <div className='flex flex-col'>
-            <h1 className='text-9xl font-bold text-blue-600'>Ashok's</h1>
+            <h1 className='text-9xl font-bold text-blue-600'>Ashok Muthupandi's</h1>
             <span className='text-2xl'>Internship Details</span>
             <button className='w-[150px] h-[50px] border rounded-lg pl-15 mt-2' onClick={resumeDownload}>
               View Resume
