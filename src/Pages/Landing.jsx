@@ -4,9 +4,9 @@ import bg from "../assets/bg.png"
 import resumepdf from "../assets/Resume.pdf";
 
 const Landing = () => {
-  function resumeDownload(){
-    window.open(resumepdf, '_blank');
-  }
+  // function resumeDownload(){
+  //   window.open(resumepdf, '_blank');
+  // }
   
   return (
     <>
