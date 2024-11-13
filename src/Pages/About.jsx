@@ -10,13 +10,13 @@ const About = () => {
             hobbies:[
                 "Cricket","Finance","Technology"
             ],
-            intrests:[
+            interests:[
                 "Devops","development"    
             ]
         }
     ]
   return (
-    <div className='text-white font-poppins text-base pt-3 bg-zinc-800 h-[630px] overflow-y-hidden px-5 overflow-x-hidden'>
+    <div className='text-white font-poppins text-base pt-3 h-[400px] overflow-y-hidden px-5 overflow-x-hidden'>
         <div>
             <h1 className='text-lg'>Let me Introduce Myself</h1>
         </div>
@@ -31,7 +31,7 @@ const About = () => {
                         <h2 style={{ color: '#5ab7f0' }}>"location"<span className='text-white px-2'>:</span><span style={{ color: '#ad7e61' }}>"{ x.location}"</span></h2>
                         <h2 style={{ color: '#5ab7f0' }}>"degree"<span className='text-white px-2'>:</span><span style={{ color: '#ad7e61' }}>"{x.degree}"</span></h2>
                         <h2 style={{ color: '#5ab7f0' }}>"hobbies"<span className='text-white px-2'>:</span> <span style={{ color: '#ad7e61' }}>"{x.hobbies.join('","')}"</span></h2>
-                        <h2 style={{ color: '#5ab7f0' }}>"intrests"<span className='text-white px-2'>:</span><span style={{ color: '#ad7e61' }}>"{x.intrests.join('","')}"</span></h2>
+                        <h2 style={{ color: '#5ab7f0' }}>"interests"<span className='text-white px-2'>:</span><span style={{ color: '#ad7e61' }}>"{x.interests.join('","')}"</span></h2>
                         </div>
                         <p className="text-yellow-400">{'}'}</p>
                     </div>

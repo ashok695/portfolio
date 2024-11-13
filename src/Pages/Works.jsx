@@ -6,7 +6,7 @@ import { FaFire } from "react-icons/fa";
 
 const Kanboard = () => {
   return (
-    <div className="h-[650px] w-full ">
+    <div className="h-[400px] w-full ">
       <CustomKanban/>
     </div>
   )

@@ -29,7 +29,7 @@ const Contact = () => {
     },
   ]
   return (
-    <div className='font-poppins text-white bg-zinc-800  overflow-hidden px-5 h-[650px]'>
+    <div className='font-poppins text-white overflow-hidden px-5 h-[400px]'>
       <h1 className='text-lg py-3'>Reach out via Socials</h1>
         <p style={{ color: '#ad7e61' }} className='pb-2'>.socials <span className='text-white'> {' {'}</span></p>
        {

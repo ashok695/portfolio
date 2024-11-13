@@ -7,7 +7,7 @@ import prettier from "../assets/Bottombar/prettier.svg"
 import warning1 from "../assets/Bottombar/warning1.svg"
 const Bottombar = () => {
   return (
-    <div className='text-white  h-[30px] bg-black font-poppins text-sm font-extralight'>
+    <div className='text-white  h-[30px] bg-black font-poppins text-sm font-extralight pt-1'>
       <div className='flex justify-between px-3'>
         <div className='flex gap-x-2 items-center'>
           <div className='flex items-center'>
